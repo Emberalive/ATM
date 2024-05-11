@@ -1,0 +1,46 @@
+#Layout {
+    -fx-grid-lines-visible: false;
+    -fx-hgap: 5;
+    -fx-vgap: 5;
+    -fx-background-color: #3f3f3f;
+    -fx-padding: 0 10 10 10;    
+}
+
+#Buttons {
+    -fx-pref-columns: 6;
+    -fx-pref-tile-width: 75;
+    -fx-hgap: 5;
+    -fx-vgap: 5;
+}
+
+.button {
+    -fx-font: bold 16pt "courier new";
+    -fx-background-color: 414141;
+    -fx-border-color:  #000000 ;
+    -fx-border-width: 3px;
+    -fx-border-radius: 7px;
+    -fx-text-base-color: #FFFFFF;
+}
+
+.label {
+    -fx-text-base-color: #FFFFFF;
+}
+
+#message {
+    -fx-background-color: #3f3f3f;
+    -fx-text-fill: #FFFFFF;
+    -fx-border-width: 2px;
+    -fx-border-color: #000000;
+    -fx-border-color:transparent transparent #000000 transparent;
+}
+
+#reply {
+    -fx-background-color: #3f3f3f;
+}
+
+#title{
+    -fx-text-base-color: #FFFFFF;
+}
+
+
+
